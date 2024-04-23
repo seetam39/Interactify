@@ -15,7 +15,7 @@ export const SocketContextProvider = ({ children }) => {
 
 	useEffect(() => {
 		if (authUser) {
-			const socket = io("https://interactify-6.onrender.com", {
+			const socket = io("https://interactify-web-app.onrender.com/", {
 				query: {
 					userId: authUser._id,
 				},
