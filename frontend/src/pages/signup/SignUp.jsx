@@ -3,7 +3,7 @@ import GenderCheckbox from "./GenderCheckbox";
 import { useState } from "react";
 import useSignup from "../../hooks/useSignup";
 import "../home/Home.css"
-import "/./Users/seeta/chat/frontend/src/index.css";
+import "/.index.css";
 
 
 const SignUp = () => {
